@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
+      color: Colors.cyan,
       initialRoute: '/',
       getPages: [
       GetPage(
